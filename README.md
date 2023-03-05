@@ -93,3 +93,17 @@ Contactame y charlamos :sunrise:
 | Residencia | Rosario - Santa Fe |
 | E-mail | [miltonfenner@gmail.com] |
 | Linkedin | [linkedin.com/in/miltonfenner] |
+
+# Estos son los 5 comandos mas usados
+| comando   | descripción               |
+| --------  | --------                  |
+| ls        | lista el contenido        |
+| cd        | cambiar entre directorios |
+| yarn      |  instalar dependencias    |
+| cl        |  limpiar la terminarl     |
+| alias     | listar los alias          |
+
+# Estos son mis alias más usados
+``` bash
+alias mostused='history | awk '\'' {print $2}'\'' | sort | uniq -c | sort -nr | head -n 10'
+```
